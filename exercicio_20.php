@@ -1,5 +1,7 @@
 <?php
 
+//20. Faça um algoritmo que imprima as seguintes figuras geométricas:
+
  for ($h=0; $h<8; $h++)
     { for($l=-1; $l<$h; $l++)
         {print "* ";}
