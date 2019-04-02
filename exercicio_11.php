@@ -11,9 +11,11 @@ if ($qtnumero=3){
     $dezena= (int)($Numero/10)%10;
     $unidade=(int)($Numero%100)%10;
 
-    print "$Numero = $centena centenas , $dezena dezenas e $unidade unidades ";
+    print "$Numero tem:\n";
+    print "$centena centenas\n"; 
+    print "$dezena dezenas\n" ;
+    print "$unidade unidades\n ";
   
-
 
 }
 
