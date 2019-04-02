@@ -4,12 +4,12 @@
     //Feminino, M - Masculino, Sexo Inválido. 
 
     print "Qual seu sexo? [F] ou [M]: ";
-    $sexo = (string) fgets (STDIN);
+    $sexo = fgetc (STDIN);
 
-    if ($sexo = 'F'){
+    if (($sexo == 'F') or ($sexo == 'f')){
         print "Feminino \n";
     }
-    elseif ($sexo = 'M'){
+    elseif (($sexo == 'M') or ($sexo == 'm')){
         print "Masculino \n";
     } 
     else{
